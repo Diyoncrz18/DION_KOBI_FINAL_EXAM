@@ -77,7 +77,7 @@
   margin-top: 100px;
   list-style-type: none;
   border-top-right-radius: 50px; 
-  background-color: #2c363f;
+  background-color: #253745;
   height: 100vh; 
 }
 
@@ -112,7 +112,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
-  background-color: #313f4d; 
+  background-color: #253745; 
 }
 
 .header {
@@ -123,6 +123,7 @@
   height: 2em;
   margin-left: 10px;
   border-radius: 20px;
+  background-color: #CCD0CF;
 }
 
 .header__img {
