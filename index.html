@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Final Web Design - CSS Grid Page Dashboard</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <header class="header">
+        <input type="search" class="header__search" placeholder="Search..." />
+        <div class="header__img">
+          <img src="img/dion-img-removebg-preview.png" alt="">
+        </div>
+      </header>      
+
+      <aside class="sidenav">
+        <div class="sidenav__close-icon">
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="sidenav__img">
+          <img src="img/dion-img-removebg-preview.png" alt="Dion Image" />
+        </div>
+        <div class="sidenav__name">
+          <ul>
+            <li>Dion Kobi</li>
+            <li>Pro Level</li>
+          </ul>
+        </div>
+        <ul class="sidenav__list">
+          <li class="sidenav__list-item">Dashboard</li>
+          <li class="sidenav__list-item">Projects</li>
+          <li class="sidenav__list-item">Invoices</li>
+          <li class="sidenav__list-item">Reprts</li>
+        </ul>
+      </aside>
+
+      <main class="main">
+        <div class="main-header">
+          <img src="img/header1.jpg" alt="">
+        </div>
+        <div class="main-overview">
+          <div class="overviewcard">
+            <div class="overviewcard__icon">Overview</div>
+            <div class="overviewcard__info">
+              <div id="chart_div1"></div>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">Overview</div>
+            <div class="overviewcard__info">
+              <div id="chart_div2"></div>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">Overview</div>
+            <div class="overviewcard__info">
+              <div id="chart_div3"></div>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">Overview</div>
+            <div class="overviewcard__info">
+              <div id="chart_div4"></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-cards">
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__copyright">&copy; 2024 UK</div>
+        <div class="footer__signature">Made with love by pure genius</div>
+      </footer>
+    </div>
+  </body>
+</html>
