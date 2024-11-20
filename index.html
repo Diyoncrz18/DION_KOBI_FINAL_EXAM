@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Final Web Design - CSS Grid Page Dashboard</title>
   </head>
+  <script src="main.js" type="module"></script>
   <body>
     <div class="grid-container">
       <div class="menu-icon">
@@ -15,9 +17,9 @@
       <header class="header">
         <input type="search" class="header__search" placeholder="Search..." />
         <div class="header__img">
-          <img src="img/dion-img-removebg-preview.png" alt="">
+          <img src="img/dion-img-removebg-preview.png" alt="" />
         </div>
-      </header>      
+      </header>
 
       <aside class="sidenav">
         <div class="sidenav__close-icon">
@@ -42,7 +44,15 @@
 
       <main class="main">
         <div class="main-header">
-          <img src="img/header1.jpg" alt="">
+          img
+          <h2>Selamat Datang di Website Saya!</h2>
+          <p>
+            Kami senang Anda hadir di sini. Jelajahi berbagai fitur dan
+            informasi yang telah kami sediakan untuk memenuhi kebutuhan Anda.
+            Kami berkomitmen untuk memberikan pengalaman terbaik dan membantu
+            Anda mencapai tujuan Anda. <br /><br />
+            Selamat menikmati kunjungan Anda!"
+          </p>
         </div>
         <div class="main-overview">
           <div class="overviewcard">
@@ -71,8 +81,10 @@
           </div>
         </div>
         <div class="main-cards">
-          <div class="card">Card</div>
-          <div class="card">Card</div>
+          <div class="card"></div>
+          <div class="card">
+            <canvas id="myChart" width="700px" height="220px"></canvas>
+          </div>
           <div class="card">Card</div>
         </div>
       </main>
