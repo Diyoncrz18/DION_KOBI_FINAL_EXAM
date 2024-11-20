@@ -189,7 +189,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #9BA8AB;
+  background-color: #dadfe0;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .main-cards {
